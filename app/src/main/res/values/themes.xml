@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Wiggle" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:colorPrimary">@color/white</item>
+        <item name="android:textColorPrimaryInverse">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="android:colorSecondary">@color/my_yellow</item>
+       <item name="android:textColorSecondaryInverse">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/blue_500</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+<!--    <style name="Theme.Wiggle.NoActionBar">-->
+<!--        <item name="android:windowActionBar">false</item>-->
+<!--        <item name="android:windowNoTitle">true</item>-->
+<!--    </style>-->
+
+<!--    <style name="Theme.Wiggle.AppBar.Overlay" parent="android:Theme.WithActionBar" />-->
+</resources>
